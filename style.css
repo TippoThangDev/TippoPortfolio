@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+.navbar-toggler {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler:hover {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+.offcanvas-start {
+  width: 20% !important;
+}
+/* 
+:focus
+Khi phần tử được focus (được chọn) — ví dụ khi bạn click vào hoặc dùng bàn phím nhấn Tab để đến nút đó. Trình duyệt thường tự động thêm viền hoặc highlight để báo hiệu đang focus.
+
+:active
+Khi phần tử đang được nhấn giữ chuột (click giữ). Trạng thái này tồn tại trong lúc bạn giữ nút chuột trên phần tử.
+
+:hover
+Khi con trỏ chuột di chuyển vào phần tử (hover chuột lên).
+ */
